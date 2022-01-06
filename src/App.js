@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import seedColors from "./seedColors";
 import PaletteList from "./PaletteList";
+import SingleColorPalette from "./SingleColorPalette";
 import Palette from "./Palette";
 import { generatePalette } from "./colorHelpers";
 
@@ -35,13 +36,10 @@ class App extends Component {
         />
         <Route
           exact
-          path="/palette/:paletteId/:colorId" 
-          render={() => <h1>SINGLE COLOR PAGE</h1>}
+          path="/palette/:paletteId/:colorId"
+          render={() => <SingleColorPalette />}
         />
       </Switch>
-      // <div className="App">
-      //   <Palette palette={generatePalette(seedColors[4])} />
-      // </div>
     );
   }
 }
