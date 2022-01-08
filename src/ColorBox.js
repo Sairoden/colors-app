@@ -32,7 +32,7 @@ class ColorBox extends Component {
             <p>{background}</p>
           </div>
           <div className="copy-container">
-            <div className="box-content">
+            <div className="box-content"> 
               <span>{name}</span>
             </div>
             <button className="copy-button">Copy</button>
