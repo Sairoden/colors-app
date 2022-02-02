@@ -43,7 +43,6 @@ export default {
         marginTop: "-3px",
       },
   },
-
   selectContainer: {
     marginLeft: "auto",
     marginRight: "1rem",

@@ -11,7 +11,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Button from "@material-ui/core/Button";
 import { ValidatorForm, TextValidator } from "react-material-ui-form-validator";
 
-const drawerWidth = 240;
+const drawerWidth = 400;
 
 const styles = theme => ({
   root: {
@@ -94,7 +94,7 @@ class PaletteFormNav extends Component {
             </Typography>
           </Toolbar>
           <div className={classes.navBtns}>
-            {/* <ValidatorForm
+            <ValidatorForm
               onSubmit={() => this.props.handleSubmit(newPaletteName)}
             >
               <TextValidator
@@ -108,7 +108,7 @@ class PaletteFormNav extends Component {
               <Button variant="contained" color="primary" type="submit">
                 Save Palette
               </Button>
-            </ValidatorForm> */}
+            </ValidatorForm>
             <Link to="/">
               <Button variant="contained" color="secondary">
                 Go Back
