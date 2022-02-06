@@ -40,7 +40,6 @@ export default {
     position: "relative",
     marginBottom: "-3.5px",
   },
-  delete: {},
   deleteIcon: {
     color: "white",
     backgroundColor: "#eb3d30",
@@ -50,7 +49,7 @@ export default {
     right: "0px",
     top: "0px",
     padding: "10px",
-    zIndex: "10",
-    opacity: "0",
+    zIndex: 10,
+    opacity: 0,
   },
 };
